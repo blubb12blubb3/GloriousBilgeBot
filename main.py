@@ -24,7 +24,7 @@ async def load_extensions():
                 if filename.endswith(".py") and filename != "__init__.py":
                     await bot.load_extension(f"cogs.{filename[:-3]}")
         print(f"Cogs loaded from {dir}")
-    dir1 = "./Hugin/cogs"
+    dir1 = "./Glorious_Bilge_Bot/cogs"
     dir2 = "./cogs"
     if os.path.exists(dir1):
         await load_cogs(dir1)
