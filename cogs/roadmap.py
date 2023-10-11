@@ -14,7 +14,7 @@ class Roadmap(commands.Cog):
         #Ziel 1
         embed.add_field(name="/help", value="- Ein Command, wo man für jeden Command eine Erklärung bekommen kann", inline=False)
         #Ziel 2
-        embed.add_field(name="Überarbeitung von /wiki", value="- Code optimieren \n- Bugfix für kurze Wörter die in den Wiki-URLs klein geschrieben werden, z.B: Of - of \n- Error Messages nur dem User, der den Command benutzt hat, anzeigen", inline=False)
+        embed.add_field(name=" kleine neu features für /wiki", value="- Suche mit Reaktion abbrechen \n- Logo con SoT Wiki in den Footer bei Ergebnissen", inline=False)
         #Ziel 3
         embed.add_field(name="/guide erweitern", value="Fort Blindspots zum Beispiel: https://seaofthieves.fandom.com/wiki/Fortress?file=FortVision.jpg", inline=False)
 
