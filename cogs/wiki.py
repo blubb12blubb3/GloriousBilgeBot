@@ -25,7 +25,7 @@ class Wiki(commands.Cog):
         app_commands.Choice(name="9", value=9),])
     async def wiki(self, interaction: discord.Interaction, search: str, amount_of_results: app_commands.Choice[int] = None):
         #CONFIG
-        botColor = 0x000000
+        botColor = 0x2b2d31
         theLine = "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯"
         theLineExtension = "⎯⎯⎯⎯⎯⎯⎯"
         loadingIcon = "<a:loading:1161668117861249134>"
