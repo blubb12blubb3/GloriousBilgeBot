@@ -1,0 +1,15 @@
+<:clanlogo:1166483282125406248> **Server Commands**
+</abstimmung:1141774766685040794> | Den Link der nachricht als Parameter angeben um eine Abstimmung zu starten 
+
+<:sotlogo:1166486220533158050>  **In-Game Hilfe**
+</guide:1142891248001220708> | Guides in Form von Bildern und Videos
+</wiki:1142131011199705158> | Durchsuche das ganze SoT Wiki!
+
+<:hungrypig:1166487097746661467> **Fun Commands**
+</hello:1141740210011504655> | Hi :wave: 
+</onlyfans:1141792976134226031> | Shhhhhhhhhhhhhhh :shushing_face:
+
+<:clanicon:1166487375329906771> **Glorious Bilge Bot**
+</ping:1141741453203222558> | Ping checken 
+</roadmap:1147927350047158393> | Was für die Zukunft geplant ist
+</help:1141761652631556227> | Das hier...

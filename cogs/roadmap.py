@@ -16,7 +16,7 @@ class Roadmap(commands.Cog):
         embed=discord.Embed(title="Roadmap für den Glorious Bilge Bot", description=file_contents, color=0xc59d6d)
         embed.set_thumbnail(url=self.bot.user.avatar.url)
         
-        await interaction.response.send_message(embed=embed, ephemeral=True)
+        await interaction.response.send_message(embed=embed, ephemeral=False)
 
 async def setup(bot):
     await bot.add_cog(Roadmap(bot))
