@@ -180,23 +180,16 @@ class Wiki(commands.Cog):
                 title = pData.get('parse', {}).get('title', '')
                 #get image
                 images = pData.get('parse', {}).get('images', [])
-                print(images)
                 #match = re.search(rf'(href|src)="/images/.*?/{images[0]}"', page_content)
                 #escaped_image = re.escape(images[0])
-                print(images[0])
                 imagename = urllib.parse.quote(images[0])
-                print(imagename)
                 pattern = rf'(href|src)="/images/[^"]*?{imagename}"'
                 match = re.search(pattern, page_content)
-                print(match)
-                print(match.group())
                 #src="/images/thumb/e/ef/Sea_of_Thieves_Insider_logo.png/361px-Sea_of_Thieves_Insider_logo.png"
                 input_string = match.group()
                 pattern2 = r'(src|href)="?'
                 imagend = re.sub(pattern2, '', input_string)
-                print(imagend)
                 imagend = imagend.replace('"', '')
-                print(imagend)
                 
                 try:
                     #/images/thumb/e/ef/Sea_of_Thieves_Insider_logo.png
